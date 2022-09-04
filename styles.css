@@ -16,7 +16,6 @@ img {
     justify-content: space-between;
     height: 90px;
     background-color: black;
-    width: 100vw;
 }
 
 .links{
@@ -54,7 +53,6 @@ img {
     display: flex;
     justify-content: center;
     background-color: black;
-    width: 100vw;
     color: white;
     height: 100vh;
 
@@ -73,7 +71,6 @@ img {
     flex-flow: column;
     justify-content: center;
     background-color: rgba(136, 136, 121, 0.1);
-    width: 100vw;
 }
 .bdd-foundations > h1{
     text-align: center;
@@ -87,7 +84,6 @@ img {
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
-    width: 100vw;
     justify-content:space-around;
     align-items: center;
 
@@ -335,12 +331,90 @@ font-size: x-large;
 /*programm*/
 .bdd-programm-container {
     display: flex;
+    height: 50vh;
     flex-flow: column;
     background: url(./images/progborder.jpg);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
 }
 .text-programm{
     display: flex;
 }
+
+.main-prog-img{
+    width: 90px;
+}
+.programm-card{
+    margin: 60px 20px;
+}
+.images{
+    width: 70px;
+}
+
+.programm-card-main{
+    width: 40%;
+    margin: 10% 20%;
+    
+}
+.text-programm-2{
+display: flex;
+flex-flow: row;
+justify-content: space-around;
+}
+.programm-button{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.text-trend{
+    font-size: large;
+    font-weight: 900;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*comments*/
+.comments{
+    margin-top: 10%;
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 5%;
+}
+.comments-title{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
+
+}
+.comments-cards-container{
+ display: flex;
+ justify-content: space-around;
+ 
+}
+.comment-card{
+
+ display: flex;
+ width: 35%;
+ flex-flow: column;
+ border: 1px solid black;
+ border-radius: 10px;
+ box-shadow: 3px 3px 3px black;
+
+}
+.comment-card-img>img{
+    width: 25%;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+.comments-text{
+    margin: 10px 10px;
+    margin-top: 40px;
+}
+
 
 /* Utlities*/
 .btn {

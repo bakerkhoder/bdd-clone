@@ -1,0 +1,72 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 100%;
+}
+/* navv bar  */
+.top-nav{
+
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    background-color: black;
+}
+
+.links{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+ 
+
+}
+
+.links > li{
+    margin-right:20px ;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.img-logo{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+
+.btn-blue{
+    background-color: rgb(85, 85, 211);
+    
+}
+
+
+/* main-slide-show */
+.main-slide-show{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100vw;
+    color: white;
+    height: 100vh;
+
+}
+.main-slide-show >h1{
+    padding-top: 50vh;
+    width: 25%;
+    height: 25%;
+}
+/* Utlities*/
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+

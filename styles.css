@@ -215,6 +215,24 @@ background-color: rgb(221, 226, 226);
 
    margin-top: 20px;
 }
+/*bdd app*/
+.bdd-app{
+    display: flex;
+    flex-flow: column;
+    justify-content: end;
+}
+.bdd-app>p{
+    
+    text-align: end;
+}
+.app-images{
+    display: flex;
+    justify-content:end;
+}
+.app-images>img{
+    width: 80px;
+    height: 40px;
+}
 /* Utlities*/
 .btn {
     padding: 10px 20px;

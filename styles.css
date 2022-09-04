@@ -329,8 +329,19 @@ font-size: x-large;
 }
 .bdd-programm-container{
     display: flex;
+    flex-flow: column;
     background: url(./images/progborder.jpg);
 }
+/*programm*/
+.bdd-programm-container {
+    display: flex;
+    flex-flow: column;
+    background: url(./images/progborder.jpg);
+}
+.text-programm{
+    display: flex;
+}
+
 /* Utlities*/
 .btn {
     color: white;

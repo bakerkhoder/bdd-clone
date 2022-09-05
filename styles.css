@@ -17,7 +17,15 @@ img {
     height: 90px;
     background-color: black;
 }
-
+a{
+   
+    margin: 5px 5px;
+    display: none;
+}
+.fa-bars{
+    margin: 5px 5px;
+    width: 40px;
+}
 .links{
     display: flex;
     list-style: none;
@@ -183,7 +191,7 @@ background-color: rgb(221, 226, 226);
     
 }
 .list-containers>ul {
-    height: 400px;
+    height: 100%;
     border-radius: 10px;
     background-color: white;
     width: 20%;
@@ -289,6 +297,7 @@ font-size: x-large;
 }
 .trending-slide-show{
     display: flex;
+    height: 80vh;
     justify-content: center;
     flex-flow: row;
     width: 70%;
@@ -340,6 +349,7 @@ font-size: x-large;
 }
 .text-programm{
     display: flex;
+    height: 100vh;
 }
 
 .main-prog-img{
@@ -444,6 +454,7 @@ background-color: rgb(53, 51, 51);
 .titleend>img{
     width: 40px;
     margin-top: 5px;}
+
 input{background-color:rgb(53, 51, 51) ;}
 /* Utlities*/
 .btn {
@@ -451,4 +462,49 @@ input{background-color:rgb(53, 51, 51) ;}
     padding: 10px 20px;
     border: none;
     border-radius: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .mobile {
+        flex-direction: column;
+    }
+    a{
+        display: block;
+    }
+    .links{
+        margin-top: 100px;
+    }
+    .bdd-propreties>img{
+        width: 0px;
+    }
+    .list-containers>ul{
+        width: 60%;
+        margin: 20px 20px;
+    }
+    .app-images>img{
+        width: 120px;
+    }
+    .statistics{
+        height: 110vh;
+    }
+    .trending>button{
+      margin-top: 30vh;
+      width: 30%;
+    }
+    .trending{
+        height: 100vh;
+    }
+    .trending-card>img{
+        height: 100%;
+    }
+    .text-trend{
+        font-size: 10px;
+        
+    }
+    .bdd-programm-container{
+        height: 100vh;
+    }
+    .text-programm{
+        flex-direction: column;
+    }
 }

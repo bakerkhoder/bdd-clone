@@ -414,8 +414,37 @@ justify-content: space-around;
     margin: 10px 10px;
     margin-top: 40px;
 }
+/*more informations*/
+.more{
+background-color: rgb(53, 51, 51);
+}
+.cardend{
+    background-color: rgb(53, 51, 51);
+}
+.carendd{
+    background-color: rgb(53, 51, 51);
+    display: flex;
+        }
+.carendd.div{
+    display: flex;
 
-
+}
+.titleend{
+    color: gray;
+}
+.paraend{
+    color: white;
+}
+.address{
+    padding-bottom: 2px;
+    border-bottom: 1px solid white;
+    display: flex;
+   
+}
+.titleend>img{
+    width: 40px;
+    margin-top: 5px;}
+input{background-color:rgb(53, 51, 51) ;}
 /* Utlities*/
 .btn {
     color: white;
